@@ -1,0 +1,171 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : RITH PHEARUN
+/* Date       : 2011-12-24
+/* EMail      : run@camitss.com
+/* Company    : http://camitss.com
+/**************************************************/
+@import url(http://fonts.googleapis.com/css?family=Moulpali);
+html{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+}
+body {
+	padding: 0px;
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+}
+#center_wrapper{ 
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+    position: relative;
+	padding: 0px 10px 20px 10px;
+	
+	border: 0px #F00 solid;
+}
+#phsaEZ_wrapper{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+    border: 0px #00F solid;
+	min-height: 700px;
+}
+#container{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	overflow: hidden;
+	border: 0px #F00 solid;
+}
+#head{
+    border: 0px #00F solid;
+    padding-bottom: 2px;
+}
+.header{    
+font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	border: 0px #F00 solid;
+	
+	/*background-image: url(../../../store/image/icon/banner_bg.jpg);*/
+}
+.header .banner{
+	border: 0px #F00 solid; 
+	width: 1000px; 
+	height: 50px; 
+	margin: 0 auto; 
+	background-repeat: no-repeat;	
+	
+	border: 0px #F00 solid;
+}
+.header .banner .logo{
+	float: left;
+	width: 400px; 
+	height: 50px; 
+	background-image: url(../store/image/icon/plazalogo.png);
+	background-repeat: no-repeat;	
+	
+	border: 0px #F00 solid;
+}
+.header .banner .log{
+	float: right;
+	height: 20px;
+	padding: 2px 2px 0px; 5px;
+	border: 0px #F00 solid;
+}
+.header .banner .log ul{
+	margin: 0px;
+	padding: 0px;
+}
+.header .banner .log ul li{
+	float: right;
+	padding: 0px 5px 0px 8px;
+	margin: 0px 0px 0px 5px;
+	border-left: 1px #CCC solid;
+}
+.header .banner .log ul li a{
+	text-decoration: none;
+	font-weight: normal;
+	color:#006EC3;	
+	border: 0px #F00 solid;
+}
+.header .banner .log ul li a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+.header .banner .log ul li #user-info img{
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+}
+.menu_bar{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	background-color: #1E8CE1;/*#2896E6;Baseed*/
+	
+	-webkit-box-shadow:0px 2px 1px #bbb;
+	-moz-box-shadow:0px 2px 1px #bbb;
+	box-shadow: 0px 2px 1px #bbb;
+}
+.menu_bar .txt_search{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 600px;
+	height: 20px;
+	padding: 3px 3px 3px 3px;
+	margin-left: 3px;
+	border: 2px #0CF solid;
+}
+.menu_bar .select_filter{
+font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 200px;
+	height: 30px;
+	padding: 3px 3px 3px 3px;
+	border: 2px #0CF solid;
+}
+.menu_bar .btn_search{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 80px;
+	height: 30px;
+	color: #FFF;
+	font-weight: bold;
+	background-color: #09F;
+	padding: 3px 3px 3px 3px;
+	border: 2px #09F solid;
+}
+.menu_bar .btn_search:hover{
+	cursor: pointer;
+	background-color: #3CAAFA;
+	border: 2px #3CAAFA solid;
+}
+.btn{
+	font-family: Tahoma, Geneva, sans-serif, 'Moulpali', cursive;
+	width: 80px;
+	height: 30px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #2896E6;
+	padding: 3px 3px 3px 3px;
+	border: 2px #09F solid;
+}
+.btn:hover{
+	cursor: pointer;
+	background-color: #3CAAFA;
+	border: 2px #3CAAFA solid;
+}
+#footer{
+	/*position: absolute;*/
+	display: block;
+	width: 100%;
+	height: 20px;
+	background-color: #1E8CE1;/*#2896E6;*/
+	color: #006EBE;
+	text-align: center;
+	
+	-webkit-box-shadow:0px -2px 10px #bbb;
+	-moz-box-shadow:0px -2px 10px #bbb;
+	box-shadow: 0px -2px 10px #bbb;
+}
+#footer a{
+	color:#006EBE;
+	text-decoration: none;
+}
+#footer a:hover{
+	color: #FFF;
+}

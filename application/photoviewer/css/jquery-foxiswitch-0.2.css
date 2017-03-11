@@ -1,0 +1,69 @@
+/**
+ * name:      jquery-foxiswitch-0.1.css
+ * author:    Stefan Benicke - www.opusonline.at
+ * date:      29.09.2009
+ * category:  stylesheet for jquery-foxibox-0.1.js
+ * copyright: (c) 2009 Stefan Benicke (www.opusonline.at)
+ * license:   GNU GPLv3 <http://www.gnu.org/licenses>
+ * example:   http://www.opusonline.at/foxitools/foxiswitch/
+ * 
+  <div id="foxiswitch_container">
+    <div id="foxiswitch_image">
+      <div id="foxiswitch_image_old"><img /></div>
+      <div id="foxiswitch_image_new"><img /></div>
+    </div>
+    <div id="foxiswitch_caption"></div>
+    <div id="foxiswitch_helptext"></div>
+  </div>
+  <ul id="gallery">  <!-- change "gallery" to your image list id -->
+    <li><img /></li> or <li><a><img /></a></li>
+    ...
+  </ul>
+  <div id="foxiswitch_controls">
+    <span id="foxiswitch_prev"></span> |
+    <span id="foxiswitch_next"></span> |
+    <span id="foxiswitch_slideshow"></span> |
+    <span id="foxiswitch_help"></span>
+  </div>
+ */
+
+/* change #gallery to your image list id */
+#gallery li {
+/* instead of display you can use float */
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#gallery a img {
+/* only as example */
+  border: none;
+}
+#gallery img, #foxiswitch_prev, #foxiswitch_next, #foxiswitch_slideshow, #foxiswitch_help {
+/* only as example */
+  cursor: pointer;
+}
+#foxiswitch_container, #foxiswitch_image {
+/* position has to be */
+  position: relative;
+}
+#foxiswitch_image_old {
+/* position, top, left, z-index have to be */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+#foxiswitch_image_new {
+/* position, z-index have to be */
+  position: relative;
+  z-index: 1;
+}
+#foxiswitch_helptext {
+/* position, z-index have to be */
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+  z-index: 2;
+  background: #fff;
+}

@@ -1,0 +1,88 @@
+@charset "utf-8";
+/**************************************************/
+/* Created by : RITH PHEARUN
+/* Date       : 2012-01-24
+/* EMail      : run@camitss.com
+/* Company    : http://camitss.com
+/**************************************************/
+
+a.shop_label{
+	text-decoration: none; 
+	color: #2554C7;
+	border: none;
+}
+a.shop_label:hover{
+	color:#006EC3;
+}
+
+.store_listproduct{
+	border-left: 1px #CCC dashed;	
+}
+.store_listproduct .label{
+    height: 25px;
+	color: #333;
+    font-size: 14px;
+	font-weight: bold;
+    padding: 5px 2px 1px 2px;
+    background-color: #E0E0E0;
+}
+.store_listproduct .item{
+	width: 152px;
+	text-align: center;
+	padding: 1px 1px 1px 1px;
+	border: 1px #FFF solid;
+}
+.store_listproduct .item img{
+	width: 150px;
+	border: 1px #FFFFFF solid;
+}
+.store_listproduct .item img:hover{
+	opacity: 0.8;
+	-khtml-opacity: 0.8;
+	-moz-opcaity: 0.8;
+	-ms-filter:"alpha(opacity=80)";
+	filter:alpha(opacity=80);
+}
+.store_listproduct .item .name{
+	width: 150px;
+}
+.store_listproduct .item .name a{
+	text-decoration: none;
+	color:#006EC3; 
+	border: none;
+}
+.store_listproduct .item .name a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
+.store_listproduct .item .price{
+	display: block;
+   	color: #C00;
+   	font-size: 14px;
+   	padding: 1px 0px 2px 0px;
+}
+
+.contact_info{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	padding: 5px 5px 5px 10px;
+	background: #F7F7F7;
+}
+.contact_info .label{
+	color: #666;
+	width: 70px;
+	text-align: left;
+}
+.contact_info .info{
+	color: #333;
+}
+.contact_info a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#006EC3; 
+	border: none;
+}
+.contact_info a:hover{
+	color: #2896EB;
+	text-decoration: underline;
+}
